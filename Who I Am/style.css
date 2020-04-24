@@ -50,8 +50,8 @@ left: -100px;
                 top: 800px;
                 left: -1px;
                 z-index: 0;
-            
-                }            
+
+                }
 
                 .name{
                     width: 800px;
@@ -60,7 +60,7 @@ left: -100px;
                     top: -92px;
                     left: 33px;
                     color: transparent;
-                   
+
                     }
 
                     .hobbies{
@@ -69,8 +69,8 @@ left: -100px;
                         position: absolute;
                         top:12px;
                         left:-5px;
-                        
-                       
+
+
                         }
 
                         .pets{
@@ -96,7 +96,7 @@ left: -100px;
                             top:-137px;
                             left: 237px;
                             color: transparent;
-                           
+
                             }
 
                             .family{
@@ -116,7 +116,7 @@ left: -100px;
                                     left: 137px;
                                     z-index:2;
                                     color: transparent;
-                                   
+
                                     }
 
                                     .lived{
@@ -145,8 +145,8 @@ left: -100px;
                                             position: absolute;
                                             top: 284px;
                                             left: 106px;
-                                        
-                                           
+
+
                                             }
 
                                             .class1{
@@ -155,8 +155,8 @@ left: -100px;
                                                 position: absolute;
                                                 top: 225px;
                                                 left: 219px;
-                                                
-                                               
+
+
                                                 }
 
                                                 .movie{
@@ -165,8 +165,8 @@ left: -100px;
                                                     position: absolute;
                                                     top: 363px;
                                                     left: 217px;
-                                                    
-                                                   
+
+
                                                     }
 
                                                     .color{
@@ -175,8 +175,8 @@ left: -100px;
                                                         position: absolute;
                                                         top: 394px;
                                                         left: 189px;
-                                                        
-                                                       
+
+
                                                         }
 
                                                         .sport{
@@ -235,7 +235,7 @@ left: -100px;
                                                             top: 377px;
                                                             left: 42px;
                                                         }
-                                                        
+
                                                         .never{
                                                             height: 800px;
                                                             width: 800px;
@@ -252,6 +252,3 @@ left: -100px;
                                                             left: -151px;
                                                             z-index: 1;
                                                         }
-                                                        
-                                                        
-                                                        
