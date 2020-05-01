@@ -73,6 +73,7 @@ $(document).ready(function() {
   $('#lyrics').html(text);
   pCount = 0;
   $('#start').on('click', function(e) {
+    console.log("buttonClicked");
     e.preventDefault();
     nextWord();
   });
@@ -80,9 +81,11 @@ $(document).ready(function() {
 
 // [to make the 'pause' button accessible]
 $('#lyrics').html(text);
+pStop = 0;
 $('#pause').on('click', function(e) {
   console.log("buttonClicked");
   e.preventDefault();
+  stopWord();
 });
 
 // // [to make the 'pause' button accessible]
@@ -105,3 +108,12 @@ function nextWord() {
   window.setTimeout(nextWord, songtext[pCount - 1][1]);
 }
 
+
+var pStop = 0;
+// [To add text transform color]
+function stopWord() {
+  $('#p' + pStop).css("color", "black");
+  pStop++;
+  if (pStop == songtext.length == 0) return;
+  window.setTimeout(stopWord, songtext[pStop == 0][0]);
+}
